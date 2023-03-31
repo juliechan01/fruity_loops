@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.head {
+	text-align: center;
+	color: #F08080;
+	margin: 20px;
+}
+
+.body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	background-color: #FFB6C1;
+	padding-top: 15px;
+}
+
+.table {
+	text-align: center;
+	background-color: white;
+	width:95%;
+	border-bottom: hidden;
+	border: 8px #FFB6C1;
+}
+
+th, td {	
+	padding: 10px;
+}
