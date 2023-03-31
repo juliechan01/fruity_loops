@@ -12,7 +12,7 @@ public class ItemController {
 	@RequestMapping("/")
 	 public String index(Model model) {
 	        
-		ArrayList<Item> fruits = new ArrayList<Item>();
+	    ArrayList<Item> fruits = new ArrayList<Item>();
 	    fruits.add(new Item("Kiwi", 1.5));
 	    fruits.add(new Item("Mango", 2));
 	    fruits.add(new Item("Goji Berries", 4));
